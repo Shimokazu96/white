@@ -1,0 +1,253 @@
+body{
+  font-family: "Hiragino Kaku Gothic ProN",sans-serif;
+  margin:60px 40px 60px 40px;
+}
+a{
+  text-decoration:none;
+}
+.page{
+  margin-left:auto;
+  margin-right:auto;
+  max-width:1035px;
+  line-height: 1.8;
+  
+}
+.container{
+  display:table;
+  width:100%;
+  margin-bottom:70px;
+  margin-left:auto;
+  margin-right:auto;
+}
+.header-left{
+  padding-bottom:10px;
+  padding-right:75px;
+  width:260px;
+  display:table-cell;
+  line-height:normal;
+}
+.header-left h1{
+  font-size:40px;
+  cursor:pointer;
+  margin:0;
+}
+.header-left a{
+  color:#333;
+}
+.header-left p{
+  color:#777;
+  font-size:18px;
+  padding-top:4px;
+  margin:0;
+}
+.header-right{
+  display:table-cell;
+  width:700px;
+  vertical-align: bottom;
+}
+.header-right ul{
+  padding-left: 0;
+  padding-right:60px;
+  margin:0;
+  display:block;
+  letter-spacing: normal;
+}
+.header-right li{
+  display:inline-block;
+  line-height: 52px;
+  padding-right:20px;
+  padding-left:20px
+}
+.header-right a{
+  font-size:17px;
+  color:#444;
+}
+.photo{
+  margin-right:auto;
+  margin-left:auto;
+  margin-bottom:90px;
+}
+.photo img {
+  max-width: 100%
+}
+.photo-text{
+  color:#777;
+  font-size:27px;
+  margin-bottom:115px;
+}
+
+.contents-main{
+  display:flex;
+}  
+
+.contents-theme{
+  float:right;
+  width:70%;
+  margin-bottom:75px;
+}
+.time{
+  float:left;
+  padding-right:75px;
+  width:30%;
+  text-size-adjust: 100%;
+}
+.time a{
+  font-size:17px;
+  color:#999;
+
+}
+.contents-theme h1{
+  color:#444;
+  font-size:23px;
+  margin-top:0;
+  margin-bottom:24px;
+}
+.contents-theme p{
+  color:#666;
+  font-size:18px;
+  margin:0;
+}
+.page-link{
+  float:right;
+  width:70%;
+  margin-bottom:80px;
+}
+.pageNav01 {
+	margin: 0 0 30px;
+	padding:0;
+}
+.pageNav01 li {
+	display: inline-block;
+	margin: 0 2px;
+  padding: 0;
+}
+.pageNav01 li a {
+  font-size:17px;
+  padding: 12px 18px;
+  color:#444;
+	background: #fff;
+	border: 1px solid #aaa;
+  vertical-align: middle;
+}
+.pageNav01 li a:hover {
+	background: #eeeff7;
+}
+.footer{
+  max-width: 1035px;
+  width:100%;
+  display: flex;
+  padding-top:75px;
+  padding-bottom:75px;
+  border-top:solid 1px rgb(230, 228, 228);
+  border-bottom:solid 1px rgb(230, 228, 228);
+}
+.features{
+  width:260px;
+  padding-right:75px;
+}
+.profile{
+  display:flex;
+  width:260px;
+}
+.icon img{
+  border-radius:50%;
+  width:100px;
+}
+.info{
+  display: inline-block;
+  padding-top:20px;
+  padding-left:20px;
+}
+.info h1{
+  margin:0;
+  font-size:19px;
+}
+.info ul{
+  padding:0;
+  margin:0;
+}
+.info li{
+  display:inline;
+}
+.info a{
+  color:#666;
+  font-size: 24px;
+  cursor:pointer;
+  margin-right:5px;
+}
+.info li a:hover{
+  opacity:0.9;
+} 
+.features p{
+  width:260px;
+  color:#666;
+  font-size:16px;
+}
+.footer-right{
+ display: flex;
+ color:#666;
+}
+.footer-right h2{
+  font-size:1.125rem;
+}
+.footer-right ul{
+  list-style: none;
+  text-align: left;
+  padding-left:0;
+}
+.footer-right2 a{
+  color:#666;
+  text-decoration: underline;
+}
+.footer-right1{
+  width:213px;
+  padding-right:30px;
+}
+.footer-right2{
+  width:190px;
+ 
+} 
+
+.footer-right3{
+  width:213px;
+}
+.footer-right3 li{
+  text-decoration:underline;
+  margin-bottom:14px;
+}
+.search-form{
+  margin-top:75px;
+}
+.search-feild{
+  max-width: 320px;
+  padding:0.6em;
+  font-size:100%;
+}
+.site-bottom{
+  padding-top:60px;
+  display:table;
+}
+.site-bottom-left{
+  width:335px;
+}
+.site-bottom-left ul{
+  padding:0;
+  margin:0;
+}
+.site-bottom-left li{
+  display:inline;
+}
+.site-bottom-left a{
+  color:#999;
+  font-size: 24px;
+  cursor:pointer;
+  margin-right:20px;
+}
+.site-bottom-left li a:hover{
+  opacity:0.9;
+} 
+.site-bottom-center{
+  color:#999;
+  display:table-cell;
+  text-align: center;
+}
